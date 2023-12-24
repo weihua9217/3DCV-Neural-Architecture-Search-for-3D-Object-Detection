@@ -24,7 +24,7 @@ CUDA_VISIBLE_DEVICES='0,1' python -m torch.distributed.launch --nproc_per_node=2
 
 ## Checkpoint for evaluation
 - Download our checkpoint: https://drive.google.com/drive/folders/1-_94ijCvYiCsvYi4FD07sJReb8qqAv3d?usp=sharing
-- modify ./cofigs/cls_kitti.yml > set the path of the checkpoint on [resume]
+- modify ./cofigs/cls_kitti.yml > set the path of the checkpoint to [resume] in cls_kitti.yml
 
 ## Evaluation
 ```
