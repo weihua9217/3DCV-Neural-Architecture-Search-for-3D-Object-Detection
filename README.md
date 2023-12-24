@@ -31,7 +31,11 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --n
 
 ## Performance
 
-- Result on the KITTI validation 3D object detection benchmark
+- Vehicle 3D detection results(AP,%) on the KITTI split1 validation set. FLOPs is calculated for 2D RPN network using an input size of 496 × 432.
+
+<img src="./img/fig1.png" width="60%">
+
+- Result on the KITTI validation 3D object detection benchmark (Compare with PointPillar)
 
 <img src="./img/fig2.png" width="100%">
 
