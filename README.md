@@ -9,6 +9,24 @@ pip install -r requirement_point.txt
 pip install opencv-python==4.5.5.64
 ```
 
+## Dataset
+
+Following this repo to download dataset, and format the dataset.
+https://github.com/zhulf0804/PointPillars
+
+```
+kitti
+    |- training
+        |- calib (#7481 .txt)
+        |- image_2 (#7481 .png)
+        |- label_2 (#7481 .txt)
+        |- velodyne (#7481 .bin)
+    |- testing
+        |- calib (#7518 .txt)
+        |- image_2 (#7518 .png)
+        |- velodyne (#7418 .bin)
+```
+
 ## Training
 
 - Using Single GPU
