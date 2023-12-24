@@ -1,0 +1,6 @@
+# ninja log v5
+0	20275	1702572171548954719	/data/hr-nas/ops/build/temp.linux-x86_64-cpython-38/voxelization/voxelization.o	8448a90001d4f642
+1	20779	1702572172048973108	/data/hr-nas/ops/build/temp.linux-x86_64-cpython-38/voxelization/voxelization_cpu.o	4e1db7443688980a
+1	71954	1702572223218812453	/data/hr-nas/ops/build/temp.linux-x86_64-cpython-38/voxelization/voxelization_cuda.o	91e4dc74053db61d
+6	12353	1702572236067261719	/data/hr-nas/ops/build/temp.linux-x86_64-cpython-38/iou3d/iou3d_kernel.o	7f180b571a9b981b
+5	20627	1702572244327548005	/data/hr-nas/ops/build/temp.linux-x86_64-cpython-38/iou3d/iou3d.o	863bb4b051a693a0

@@ -1,0 +1,4 @@
+numba
+PyYAML
+setuptools
+tqdm
