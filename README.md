@@ -43,3 +43,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --nproc_per_node=1 --n
 <img src="./img/fig2.png" width="100%">
 
 
+## Visualization
+
+- Visualization examples of KITTY validation dataset.
+<img src="./img/fig3.png" width="100%">
